@@ -1,0 +1,39 @@
+.btn {
+  background: yellow;
+  border: none;
+  padding: 20px;
+}
+
+.box-red {
+  position: relative;
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border: 3px solid red;
+}
+
+.box-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  height: 100px;
+  background: grey;
+}
+
+.box-yellow {
+  width: 120px;
+  height: 50px;
+  background: yellow;
+  margin-left: 5px;
+}
